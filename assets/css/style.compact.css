@@ -12,6 +12,8 @@ body main { background-image: url("../img/background_mobile.png"); height: calc(
 
 body main .cls { fill: #292929; fill-opacity: 0.25; stroke: #fff; stroke-width: 2px; fill-rule: evenodd; }
 
-body main nav ul { position: absolute; }
+body main nav ul a li { display: inline-block; list-style-type: none; position: relative; }
 
-body main nav ul a li { display: inline-block; list-style-type: none; }
+body main nav ul a li p { position: absolute; color: white; top: 50%; left: 10%; right: 10%; text-align: center; margin: 0; transform: translateY(-50%); }
+
+/*# sourceMappingURL=style.compact.css.map */

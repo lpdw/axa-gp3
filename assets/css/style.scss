@@ -59,4 +59,65 @@ body {
         height: calc(100vh - 41px);
         background-size: cover;
     }
+
+
+  .strategie {
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%; /* largeur obligatoire pour être centré */
+    font-family: font72197;
+
+      section {
+        margin-top: 20%;
+        margin-bottom: 20%;
+      }
+      .st0{
+        fill:none;
+        stroke:#5A8FA6;
+        stroke-linecap:round;
+        stroke-linejoin:round;
+        stroke-miterlimit:10;
+      }
+      .st1{
+        fill:#5A8FA6;
+      }
+
+      hr {
+      color: #5a8fa6;
+      }
+
+
+      h1 {
+        font-size: 40px;
+        color: black;
+      }
+
+      h2 {
+        font-size: 18px;
+        color: white;
+
+      }
+      h3 {
+        font-size: 18px;
+        color: black;
+      }
+
+      p {
+        font-size: 14px;
+        font-family: arial;
+        color: grey;
+      }
+
+      p.graph-data {
+        font-weight: bold;
+        color: black;
+      }
+
+      p.graph-date {
+        color: grey;
+      }
+
+
+  }
 }

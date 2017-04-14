@@ -19,7 +19,7 @@
             figure {
 
                 svg {
-                      width        : 50%;
+                      width        : 100%;
                       margin       : 0 auto;
                 }
 
@@ -45,10 +45,12 @@
                   font-size: 15px;
                   font-family: "Arial";
                   text-align: justify;
-                  color: black;
+                  color: grey;
                 }
 
             }
+
+
 
     }
     .st0{
@@ -87,14 +89,51 @@
       color             : grey;
     }
 
-    p.graph-data {
-      font-weight       : bold;
-      color             : black;
-    }
-
-    p.graph-date {
-      color             : grey;
-    }
 
 
+
+}
+
+
+
+
+.svg-circle {
+//  background: green;
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.circle {
+  margin-left: auto;
+  margin-right: auto;
+  width: 0%;
+
+          .shape {
+          //  background: red;
+            display: block;
+            height: 0;
+            padding-top: 30%;
+            position: relative;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+          }
+
+          p.graph-data {
+            font-weight       : bold;
+            color             : black;
+            text-align: center;
+          }
+
+          p.graph-date {
+            color             : grey;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            text-align: center;
+          }
 }
